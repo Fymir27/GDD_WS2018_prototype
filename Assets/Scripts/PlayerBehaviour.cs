@@ -40,8 +40,8 @@ public class PlayerBehaviour : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update ()
-    {
-        if(Input.GetKey(KeyCode.Space))
+    {      
+        if(Input.GetKey(KeyCode.Space) || Input.touches.GetLength(0) > 0)
         {
             Vector3 movement = Vector2.zero;
             switch (status)
