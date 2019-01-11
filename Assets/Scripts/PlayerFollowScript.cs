@@ -17,7 +17,8 @@ public class PlayerFollowScript : MonoBehaviour {
     {
 		if(PlayerTransform != null)
         {
-            transform.position = new Vector3(transform.position.x, PlayerTransform.position.y, transform.position.z);
+            float y = Mathf.Max(transform.position.y, PlayerTransform.position.y);
+            transform.position = new Vector3(transform.position.x, y, transform.position.z);
 
         }
         else

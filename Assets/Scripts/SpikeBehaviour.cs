@@ -20,6 +20,7 @@ public class SpikeBehaviour : MonoBehaviour {
 
         if (isPlayer)
         {
+            ControllerScript.Instance.PlaySound(Sound.Die);
             ControllerScript.Instance.OnGameOver();
         }
     }
