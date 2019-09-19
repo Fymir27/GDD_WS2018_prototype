@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5909129607209805113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5909129607209805115}
+  - component: {fileID: 5909129607209805114}
+  m_Layer: 0
+  m_Name: LevelCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5909129607209805115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5909129607209805113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.110919, y: -15.285171, z: -0.18854366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5909129607209805114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5909129607209805113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751a93d6a0dd2da49af56260a22e9521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceBetweenWalls: 10
+  distanceBetweenSpikes: 4
+  platformDensity: 33
+  playerTransform: {fileID: 0}
+  wallPrefab: {fileID: 1952354883936778, guid: 5cf667b6432c4f2469a81985ff3cec2e, type: 3}
+  spikePrefab: {fileID: 8688421575601689496, guid: f97ecf935caf1a34dae1553d2535fc03,
+    type: 3}
+  floatyPrefab: {fileID: 4742368636189343681, guid: 88f577b16afc5424c9891e774dabf325,
+    type: 3}
+  platformPrefab: {fileID: 1754175117821460543, guid: 77ed880bd57322e468a8122bdf122d81,
+    type: 3}
+  bacteriaPrefab: {fileID: 993320530258510320, guid: 2f07699be5c210544be8b5a67cb31bb7,
+    type: 3}
+  tapeWormPrefab: {fileID: 6192448915430365898, guid: aaf7df9d65f78fc499e057efab58ab40,
+    type: 3}
+  level: 2
+  minTiles: 18000000220000002a000000
+  obstacleDensity: 320000004400000054000000
